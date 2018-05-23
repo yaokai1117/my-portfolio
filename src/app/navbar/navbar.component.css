@@ -1,0 +1,34 @@
+mat-toolbar {
+  height: 10vh;
+  width: 100%;
+  background: #ffffff;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  color: #242c5c;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #aeb4d4;
+}
+.spacing {
+  flex: 1 1 auto;
+}
+.name {
+  margin: 4%;
+}
+.name a {
+  font-size: 2rem;
+  line-height: 1.4em;
+}
+
+.horizon-menu a {
+  margin: auto 1.5rem;
+}
+
+.vertical-menu a {
+  margin: 0.4rem auto;
+}

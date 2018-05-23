@@ -1,0 +1,47 @@
+<mat-toolbar>
+
+  <div class="name">
+    <a href="#">
+      {{ name }}
+    </a>
+  </div>
+
+  <span class="spacing"></span>
+
+  <div class="horizon-menu" fxShow fxHide.lt-sm>
+
+    <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+
+    <a href="#">Experiences</a>
+
+    <a href="#">Education</a>
+
+    <a href="#">Skills</a>
+
+    <a href="#">Contact</a>
+
+  </div>
+
+  <div fxHide fxShow.lt-sm>
+
+    <button mat-button [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+  </div>
+
+</mat-toolbar>
+
+<mat-menu #menu="matMenu">
+  <div class="vertical-menu" fxLayout="column">
+
+    <a href="#">Experiences</a>
+
+    <a href="#">Education</a>
+
+    <a href="#">Skills</a>
+
+    <a href="#">Contact</a>
+
+  </div>
+</mat-menu>
