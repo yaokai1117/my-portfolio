@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { NamecardComponent } from './namecard/namecard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    NamecardComponent
   ],
   imports: [
     BrowserModule,
