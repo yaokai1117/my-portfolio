@@ -23,7 +23,7 @@
 .namecard-left {
   text-align: center;
   width: 400px;
-  height: 400px;
+  max-height: 400px;
   background-color: white;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .namecard-text {
-  padding: 2rem 3rem 1rem 1rem;
+  padding: 2rem 0rem 1rem 1rem;
 }
 
 .namecard-right span {
