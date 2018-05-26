@@ -1,10 +1,10 @@
 <div appScrollSlowly class="namecard-container">
   <div class="namecard-above-spacing"></div>
   <div class="namecard">
-    <div class="namecard-left">
+    <div [@slideInFromLeft] class="namecard-left">
       <img style="max-width: 100%; max-height: 100%; margin: auto" src="../../assets/kaiyao.jpg">
     </div>
-    <div class="namecard-right">
+    <div [@slideInFromRight] class="namecard-right">
       <div class="namecard-text">
         <h4> <span>{{ name }} </span> </h4>
         <h6> <span>{{ description1 }} <br> {{ description2}} <br> {{ description3 }} </span></h6>
@@ -21,7 +21,7 @@
     </div>
   </div>
   <div class="namecard-contact-bar">
-    <div class="namecard-contact">
+    <div [@slideInFromBottom] class="namecard-contact">
       <a class="social-link" href="https://www.linkedin.com/in/kai-yao-161a54119/">
         <img src="../../assets/linkedin.png">
       </a>
