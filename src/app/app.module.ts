@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { NamecardComponent } from './namecard/namecard.component';
+import { ScrollSlowlyDirective } from './scroll-slowly.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ExperienceComponent,
-    NamecardComponent
+    NamecardComponent,
+    ScrollSlowlyDirective
   ],
   imports: [
     BrowserModule,
