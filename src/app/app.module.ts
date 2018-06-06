@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { NamecardComponent } from './namecard/namecard.component';
 import { ScrollSlowlyDirective } from './scroll-slowly.directive';
+import { HeadlineComponent } from './headline/headline.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ScrollSlowlyDirective } from './scroll-slowly.directive';
     NavbarComponent,
     ExperienceComponent,
     NamecardComponent,
-    ScrollSlowlyDirective
+    ScrollSlowlyDirective,
+    HeadlineComponent
   ],
   imports: [
     BrowserModule,

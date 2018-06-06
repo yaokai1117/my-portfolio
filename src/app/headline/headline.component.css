@@ -1,0 +1,19 @@
+.headline-container {
+  display: flex;
+  width: 100%;
+  height: 12vh;
+  background-color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-top: #f1f1f1 solid 2px;
+  border-bottom: #f1f1f1 solid 2px;
+}
+
+.headline-container span {
+  font-family: 'Raleway', sans-serif;
+  color: #242c5c;
+}
