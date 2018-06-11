@@ -1,2 +1,53 @@
+span {
+  font-family: 'Raleway', sans-serif;
+  color: #242c5c;
+}
+
+.experience-spacing {
+  height: 1.6rem;
+}
+
 .experience-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin: 1rem auto;
+}
+
+.experience-left-container {
+  width: 50%;
+  min-width: 400px;
+}
+
+.experience-right-container {
+  width: 50%;
+  min-width: 400px;
+}
+
+.experience-left {
+  margin-right: 4em;
+  text-align: right;
+  max-width: 400px;
+}
+
+.experience-right {
+  margin-left: 4rem;
+  text-align: left;
+  max-width: 400px;
+}
+
+.experience-duration {
+  font-weight: bold;
+}
+
+.experience-company {
+  font-weight: bold;
 }

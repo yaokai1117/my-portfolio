@@ -34,3 +34,8 @@ a:hover {
 .vertical-menu a {
   margin: 0.4rem auto;
 }
+
+mat-menu {
+  position: fixed;
+  top: 10vh;
+}

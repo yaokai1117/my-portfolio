@@ -46,13 +46,13 @@
   margin-bottom: 0;
   margin-top: 0.8rem;
   font-size: 1.6rem;
-  font-weight: normal;
 }
 
 .namecard-right h6 {
   margin-bottom: 0;
   margin-top: 0.8rem;
   font-size: 1rem;
+  font-weight: normal;
 }
 
 .namecard-contact-bar {
@@ -101,6 +101,7 @@
   margin-bottom: 0;
   margin-top: 1.4rem;
   font-size: 1.6rem;
+  font-weight: normal;
 }
 
 .namecard-intro span {

@@ -1,2 +1,30 @@
+<div class="experience-spacing"></div>
+
 <div class="experience-container">
+  <div class="experience" *ngFor="let experience of experiences">
+    <div class="experience-left-container">
+      <div class="experience-left">
+        <div class="experience-company">
+          <span> {{ experience.company }} </span>
+        </div>
+        <div class="experience-title">
+          <span> {{ experience.title }} </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="experience-right-container">
+      <div class="experience-right">
+        <div class="experience-duration">
+          <span> {{ experience.duration }} </span>
+        </div>
+        <div class="experience-description">
+          <span> {{ experience.description }} </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
+
+<div class="experience-spacing"></div>

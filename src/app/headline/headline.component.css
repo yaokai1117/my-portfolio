@@ -4,7 +4,7 @@
   height: 12vh;
   background-color: white;
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -16,4 +16,5 @@
 .headline-container span {
   font-family: 'Raleway', sans-serif;
   color: #242c5c;
+  letter-spacing: 2px;
 }
